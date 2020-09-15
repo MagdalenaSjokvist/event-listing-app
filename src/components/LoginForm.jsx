@@ -10,7 +10,7 @@ export default function LoginForm() {
 
 	const [email, setEmail] = useState("test.user@willandskill.se")
 	const [password, setPassword] = useState("js-lesson-10")
-	const [setToken] = useContext(UserContext)
+	const { setToken } = useContext(UserContext)
 
 	function login() {
 		const payload = {
