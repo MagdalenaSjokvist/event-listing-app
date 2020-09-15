@@ -1,11 +1,11 @@
 import React, { useRef, useState } from "react"
-import LoginForm from "./components/LoginForm"
+import LoginPage from "./pages/LoginPage"
 
 function App() {
 	return (
 		<div>
 			<h1>The Event App</h1>
-			<LoginForm />
+			<LoginPage />
 		</div>
 	)
 }
