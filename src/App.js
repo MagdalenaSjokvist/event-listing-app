@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react"
 import { Route, Switch } from "react-router-dom"
-import EventListPage from "./components/EventListPage"
+import EventListPage from "./pages/EventListPage"
 import LoginPage from "./pages/LoginPage"
 
 function App() {
